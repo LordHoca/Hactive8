@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <input id="tampilan" disabled>
+    <div class="kunci">
+      
+      <button class='btnClearAll' onclick="hapusAll()">C</button>
+      <button onclick="hapus()">del</button>
+      <button onclick="masukanKetampilan('7')">7</button>
+      <button class = 'btn8' onclick="masukanKetampilan('8')">8</button>
+      <button onclick="masukanKetampilan('9')">9</button>
+      <button class = 'btn-operator' onclick="masukanKetampilan('+')">+</button>
+      <button onclick="masukanKetampilan('4')">4</button>
+      <button onclick="masukanKetampilan('5')">5</button>
+      <button onclick="masukanKetampilan('6')">6</button>
+      <button class = 'btn-operator' onclick="masukanKetampilan('-')">-</button>
+      <button onclick="masukanKetampilan('1')">1</button>
+      <button onclick="masukanKetampilan('2')">2</button>
+      <button onclick="masukanKetampilan('3')">3</button>
+      <button class = 'btn-operator' onclick="masukanKetampilan('*')">x</button>
+      <button onclick="masukanKetampilan('.')">.</button>
+      <button onclick="masukanKetampilan('0')">0</button>
+      <button onclick="hitung()">=</button>
+      <button class = 'btn-operator' onclick="masukanKetampilan('/')">÷</button>
+
+    </div>
+  </div>
+  <script src="data.js"></script>
+
+</body>
+
+</html>
