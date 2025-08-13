@@ -1,7 +1,7 @@
 const body = document.body;
-let h1 = document.createElement('h1')
-h1.innerHTML = '<marquee>Welcome To Calculate Me!</marquee>' //Membuat tulisan 'Welcome To Calculate Me!' yang bergerak
-body.appendChild(h1)
+let h2 = document.createElement('h2')
+h2.innerHTML = '<marquee>Welcome To Calculate Me!</marquee>' //Membuat tulisan 'Welcome To Calculate Me!' yang bergerak
+body.appendChild(h2)
 
 const tampilan = document.getElementById('tampilan'); // Mengambil elemen input dari html dengan id 'tampilan'
 
@@ -24,4 +24,5 @@ function hitung() { // fungsi untuk menghitung hasil dari input yang ada pada ta
 
 function hapus () {
     tampilan.value = tampilan.value.slice(0, -1); // fungsi untuk menghapus karakter terakhir pada tampilan kalkulator
+
 }
